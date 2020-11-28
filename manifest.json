@@ -1,0 +1,13 @@
+{
+  "name": "My PDF Reader",
+  "version": "1.0",
+  "description": "Customized PDF Reader based on PDF.js.",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest", "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}
